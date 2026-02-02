@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build outputs
+dist
+dist-electron
+release
+*.exe
+!resources/python/antagonista.exe
+
+# Python
+resources/python/antagonista.py
+resources/python/build
+resources/python/__pycache__
+*.pyc
+*.pyo
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor
+*.sublime-workspace
+
+# Test
+coverage
+
+# Misc
+*.local

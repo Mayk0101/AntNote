@@ -1,0 +1,33 @@
+@import './styles/theme.css';
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+input,
+textarea,
+.cm-editor,
+.selectable-text {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
